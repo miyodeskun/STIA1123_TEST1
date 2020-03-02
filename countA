@@ -1,0 +1,22 @@
+// EXERCISE 2
+// QUESTION 2
+
+import.java.util.Scanner;
+public class Count A {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner (System.in);
+        System.out.print("Input a word: "); // Get input from users
+        String x = sc.next();
+        countA(x);
+    public static void countA(String x){ // String parameter from main method
+        char someChar = 'A'; // Declare char A to be count
+        int count = 0;
+        
+        for(int i=0; i<x.length();i++){ // Loop to find A letter in the String x
+            if(x.charAt(i)==someChar){
+                count++;
+            }
+        }
+        System.out.println("Total 'A' letters: " + count); // Print the total A letter that been counted        
+    }
+}
