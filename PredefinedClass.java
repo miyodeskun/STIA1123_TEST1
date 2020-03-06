@@ -1,10 +1,5 @@
-import java.util.Scanner;
-import java.util.Random;
 public class PredefinedClass {
     public static void main(String[] args) {
-        Scanner sc = new Scanner (System.in);
-        System.out.print("Input a word: ");
-        String x = sc.next();
         
         String a = "Number", b = "Square", c = "Cube";
         System.out.printf("%s%8s%7s", a,b,c);
