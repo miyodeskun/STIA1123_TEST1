@@ -12,7 +12,7 @@ public class CountA {
     }
     public static void countA(String x){
         char someChar = 'A';
-        int count = 0;
+        int count = 1;
         
         for(int i=0; i<x.length();i++){
             if(x.charAt(i)==someChar){
