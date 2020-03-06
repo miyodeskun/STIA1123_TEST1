@@ -7,7 +7,7 @@ public class CountA {
     public static void main(String[] args) {
         Scanner sc = new Scanner (System.in);
         System.out.print("Input a word: ");
-        String x = sc.next();
+        String x = sc.nextLine();
         countA(x);
     }
     public static void countA(String x){
