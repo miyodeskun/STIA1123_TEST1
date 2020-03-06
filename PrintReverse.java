@@ -8,7 +8,7 @@ public class PrintReverse {
     public static void main(String args[]){
         Scanner sc = new Scanner (System.in);
         System.out.print("Input a word: ");
-        String x = sc.next();
+        String x = sc.nextLine();
         printReverse(x);
     }
     public static void printReverse(String x){
