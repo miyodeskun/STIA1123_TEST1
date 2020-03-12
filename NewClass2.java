@@ -6,6 +6,7 @@ import java.util.Scanner;
  */
 public class NewClass2 {
     public static void main(String[] args){
+        // QUESTION 1.3
         Scanner sc = new Scanner(System.in);
         System.out.print("Input 1st word (string): ");
         String x = sc.nextLine();
